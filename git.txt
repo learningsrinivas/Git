@@ -1,0 +1,1 @@
+git clone --single-branch --branch <branchname> host:/dir.git -> git clone particular branch
