@@ -1,1 +1,17 @@
 git clone --single-branch --branch <branchname> host:/dir.git -> git clone particular branch
+git remote -v -> to see url of remote repo
+git remote add origin -> to associate to remote repo
+git remote set-url origin <url> -> to change remote url to new one 
+git branch - lists all branches 
+git branch <name> - to create new branch
+git checkout <name> - switches to an existing command
+git checkout -b <name> - to create a new branch and immediately switch to it
+git merge develop - to merge develop into master branch
+git pull origin <branch> - to pull the most recent changes from that remote breanch 
+git status - to see what files have been changed and what's being tracked 
+git diff --stat - how much each file has been changed , to see the number of lines changed 
+git log - to see the commit history 
+git checkout <hashbranchname>
+git push -f origin master
+git commit --amend - to change the commit message
+
