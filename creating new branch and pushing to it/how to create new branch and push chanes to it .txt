@@ -1,0 +1,42 @@
+git clone https://git.epam.com/Mandar_Navare/epmcot.git
+cd epmcot
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+ git pull
+git checkout -b manage_roles
+$ git commit -m "intial commit"
+On branch manage_roles
+Changes not staged for commit:
+        modified:   .idea/compiler.xml
+        modified:   .idea/encodings.xml
+        modified:   .idea/misc.xml
+        deleted:    .idea/modules.xml
+        deleted:    .idea/uiDesigner.xml
+        modified:   .idea/vcs.xml
+
+Untracked files:
+        .idea/workspace.xml
+
+no changes added to commit
+
+
+$ git push
+fatal: The current branch manage_roles has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin manage_roles
+$ git push --set-upstream origin manage_roles
+Total 0 (delta 0), reused 0 (delta 0)
+
+remote:
+remote: To create a merge request for manage_roles, visit:
+remote:   https://git.epam.com/Mandar_Navare/epmcot/merge_requests/new?merge_request%5Bsource_branch%5D=manage_roles
+remote:
+To https://git.epam.com/Mandar_Navare/epmcot.git
+ * [new branch]      manage_roles -> manage_roles
+Branch 'manage_roles' set up to track remote branch 'manage_roles' from 'origin'.
+
+

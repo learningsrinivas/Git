@@ -14,4 +14,5 @@ git log - to see the commit history
 git checkout <hashbranchname>
 git push -f origin master
 git commit --amend - to change the commit message
+git push --set-upstream origin manage_roles -> creates  a remote branch and attaches with local branch and sent local branch to remote branch 
 
