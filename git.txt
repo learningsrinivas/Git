@@ -1,18 +1,57 @@
-git clone --single-branch --branch <branchname> host:/dir.git -> git clone particular branch
-git remote -v -> to see url of remote repo
-git remote add origin -> to associate to remote repo
-git remote set-url origin <url> -> to change remote url to new one 
-git branch - lists all branches 
-git branch <name> - to create new branch
-git checkout <name> - switches to an existing command
-git checkout -b <name> - to create a new branch and immediately switch to it
-git merge develop - to merge develop into master branch
-git pull origin <branch> - to pull the most recent changes from that remote breanch 
-git status - to see what files have been changed and what's being tracked 
-git diff --stat - how much each file has been changed , to see the number of lines changed 
-git log - to see the commit history 
-git checkout <hashbranchname>
-git push -f origin master
-git commit --amend - to change the commit message
-git push --set-upstream origin manage_roles -> creates  a remote branch and attaches with local branch and sent local branch to remote branch 
+$git clone --single-branch --branch <branchname> host:/dir.git -> git clone particular branch
+$git remote -v -> to see url of remote repo
+$git remote add origin -> to associate to remote repo
+$git remote set-url origin <url> -> to change remote url to new one 
+$git branch -a -> lists all branches 
+$git branch <name> - to create new branch
+$git checkout <name> - switches to an existing command
+$git checkout -b <name> - to create a new branch and immediately switch to it
+$git merge develop - to merge develop into master branch
+$git pull origin <branch> - to pull the most recent changes from that remote breanch 
+$git status - to see what files have been changed and what's being tracked 
+$git diff --stat - how much each file has been changed , to see the number of lines changed 
+$git log - to see the commit history 
+$git checkout <hashbranchname>
+$git push -f origin master
+$git commit --amend - to change the commit message
+$git push --set-upstream origin manage_roles -> creates  a remote branch and attaches with local branch and sent local branch to remote branch 
+git branch	List branches (the asterisk denotes the current branch)
+git branch -a	List all branches (local and remote)
+git branch [branch name]	Create a new branch
+git branch -d [branch name]	Delete a branch
+$git config --global user.name "Mona Lisa"
+$ git config --global user.name
+> Mona Lisa
+$ git config user.name "Mona Lisa"
+$ git config user.name
+> Mona Lisa
+Setting your email address for every repository on your computer
+$ git config --global user.email "email@example.com"
+Confirm that you have set the email address correctly in Git:
+$ git config --global user.email
+email@example.com
+Setting your email address for a single repository
+$ git config user.email "email@example.com"
+$ git config user.email
+email@example.com
+
+
+To get lastest changes from master branch to your working branch
+----------------------------------------------------------------------
+first get lastest changes in master
+git checkout master; git pull;
+
+switch to your working branch
+git checkout Group_Roles;
+
+merge master changes into your branch
+git merge master
+
+-----------------------------------------
+$ git reset HEAD~1
+# Remove the most recent commit
+-------------------------------------------
+$ touch .gitignore
+to create gitignore file
+---------------------------------
 
