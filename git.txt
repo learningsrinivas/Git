@@ -54,4 +54,21 @@ $ git reset HEAD~1
 $ touch .gitignore
 to create gitignore file
 ---------------------------------
+# Discard staged and unstaged changes since the most recent commit
+git reset --hard HEAD
+--------------------------------
+#— Discard unstaged changes since my_commit.
+git checkout my_commit
+--------------------------------------
+#—Delete untracked files in the local working directory.
 
+git clean -n 
+The -n flag is for a dry run where nothing is deleted.
+
+Use the -f flag to actually remove the files.
+
+Use the -d flag to remove untracked directories.
+---------------------------------------
+$git stash ->
+$git stash pop -> 
+-------------------------------
