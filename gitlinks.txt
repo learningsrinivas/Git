@@ -1,0 +1,2 @@
+https://medium.freecodecamp.org/useful-tricks-you-might-not-know-about-git-stash-e8a9490f0a1a
+https://medium.com/the-andela-way/exploring-the-git-log-command-9117b9ff3c2c
